@@ -1,0 +1,7 @@
+{
+  "name": "GlobalApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

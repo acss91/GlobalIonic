@@ -1,0 +1,25 @@
+<ion-content  color="primary">
+  <form  [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <div text-center>
+            <h3>Cadastre o seu heroi</h3>
+          </div>
+          
+            <ion-item>
+              <ion-input  formControlName="id" type="text" placeholder="Digte o id do heroi" ngModel required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input formControlName="nome" type="text" placeholder="Digite o nome do heroi" ngModel required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input  formControlName="categoriasId" type="text" placeholder="Digite o id Categoria do heroi" ngModel required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input formControlName="categoriasNome" type="text" placeholder="Digite nome da Categoria" ngModel required></ion-input>
+            </ion-item>
+            <ion-row>
+              <ion-col>
+                <ion-button type="submit" color="danger" expand="block">Adicionar</ion-button>
+              </ion-col>
+            </ion-row>
+  </form>
+</ion-content>

@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">APP DO HEROI</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-item>
+  <ion-button expand="block" (click)="listarHero();">Listar</ion-button>
+</ion-item>
+<ion-item>
+  <ion-button expand="block" (click)="salvaHeroi();">Formulário do Heroi </ion-button>
+</ion-item>
+<pre>{{consulta}}</pre>
+  
+</ion-content>
